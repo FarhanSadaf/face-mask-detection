@@ -63,4 +63,4 @@ Which is pretty slow comparing with haarcascade classifier.
 - GitHub MTCNN: https://github.com/ipazc/mtcnn
 
 ## Licensing
-The code in this project licensed is under the [MIT License](LICENSE).
+The code in this project licensed is under [MIT License](LICENSE).
