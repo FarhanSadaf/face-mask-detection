@@ -61,3 +61,6 @@ Which is pretty slow comparing with haarcascade classifier.
 - Face Detection using Haar Cascades: https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_objdetect/py_face_detection/py_face_detection.html
 - How to Perform Face Detection with Deep Learning: https://machinelearningmastery.com/how-to-perform-face-detection-with-classical-and-deep-learning-methods-in-python-with-keras/
 - GitHub MTCNN: https://github.com/ipazc/mtcnn
+
+## Licensing
+The code in this project licensed is under the [MIT License](LICENSE).
