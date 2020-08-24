@@ -27,15 +27,15 @@ Though the dataset is pretty imbalanced with most of the data belonging to `With
 But more data for `Mask worn incorrectly` class is needed in order to detect this class properly.
 
 ## Workflow
-1. <a href="https://github.com/FarhanSadaf/face-mask-detection/blob/master/1_data-preprocessing.ipynb">Data preprocessing</a> : 
+1. <b><a href="https://github.com/FarhanSadaf/face-mask-detection/blob/master/1_data-preprocessing.ipynb">Data preprocessing</a></b> : 
 All images have their bounding boxes in the PASCAL VOC format and their info saved in `XML` format in `annotaions` directory. 
 Only the region bounded by bounding box taken as input and their respective labels taken as output.
 
-2. <a href="https://github.com/FarhanSadaf/face-mask-detection/blob/master/2_training-face-mask-model.ipynb">Training mask detector model</a> :
+2. <b><a href="https://github.com/FarhanSadaf/face-mask-detection/blob/master/2_training-face-mask-model.ipynb">Training mask detector model</a></b> :
 Transfer learning was used to train the inputs. The classifier model was built with <a href="https://www.tensorflow.org/api_docs/python/tf/keras/applications/InceptionV3">InceptionV3</a> neural network architecture.
 After training for 20 epochs, accuracy on test set was 96.81%.
 
-3. <a href="https://github.com/FarhanSadaf/face-mask-detection/blob/master/3.2_detecting-mask-w-mtcnn.ipynb">Detecting face mask </a><a href="https://github.com/FarhanSadaf/face-mask-detection/blob/master/3.1_detecting-mask-w-haarcascade.ipynb">in real-time</a> :
+3. <b><a href="https://github.com/FarhanSadaf/face-mask-detection/blob/master/3.2_detecting-mask-w-mtcnn.ipynb">Detecting face mask </a><a href="https://github.com/FarhanSadaf/face-mask-detection/blob/master/3.1_detecting-mask-w-haarcascade.ipynb">in real-time</a></b> :
 First task was to detect faces from each frame of the video. 
 At first I used <a href="https://github.com/FarhanSadaf/face-mask-detection/blob/master/3.1_detecting-mask-w-haarcascade.ipynb">Haarcascade classifer</a> from OpenCV for face detection. Average FPS I got while running on my machine was around 16. 
 But face detection wasn't that accurate. This classifer struggled detecting faces with mask. In low-light condition it struggled the most.
