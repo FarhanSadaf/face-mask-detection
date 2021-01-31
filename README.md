@@ -7,7 +7,7 @@ In this simple project, a video camera detects if an individual is wearing a fac
 <br/>The detection steps looks somewhat like this:
 <img src="images/overview.png" />
 
-## Quick start the project
+## Quickstart the project
 1. Download the code in `ZIP` or open with `GitHub Desktop` or `git clone https://github.com/FarhanSadaf/face-mask-detection.git`. If you face issues downloading weight file, you can download from this <a href="https://drive.google.com/file/d/16B5N0LT5YGlH6MPnmsoF-9ri0MhO3bNv/view">google drive link</a>.
 2. Install required python dependencies into your python environment / virtual environment using `pip install -r requirements.txt`.
 3. Run `script-1.py` for real-time detection using webcam. If detection isn't to your liking, try running `script-2.py`.
